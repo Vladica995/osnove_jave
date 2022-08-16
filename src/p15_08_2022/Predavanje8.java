@@ -10,7 +10,7 @@ public class Predavanje8 {
 		trougaoPravougli(5, 5, 10);
 		boolean pravougli = trougaoPravougli(5, 5, 10);
 
-		if (trougaoPravougli(5, 5, 10) == true) {
+		if (pravougli == true) {
 			System.out.println("Trougao je pravougli");
 		} else {
 			System.out.println("Trougao nije pravougli");
