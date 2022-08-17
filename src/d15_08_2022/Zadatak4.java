@@ -14,21 +14,16 @@ public class Zadatak4 {
 //Metoda prima jmbg, ime, prezime, god rodjenja i da li je aktivan kao parametre metode.Metoda nista ne vraca.
 
 		podaci("0206995730054", "Vladica", "Stevanovic", 1995, true);
-		
-		
-		
-	
-		
-		
 
-	} public static void podaci(String jmbg, String ime, String prezime, int godinaRodjenja, boolean aktivan) {
+	}
+
+	public static void podaci(String jmbg, String ime, String prezime, int godinaRodjenja, boolean aktivan) {
 		System.out.println("JMBG: " + jmbg);
 		System.out.println("Ime: " + ime);
 		System.out.println("Prezime: " + prezime);
 		System.out.println("Godina rodjenja: " + godinaRodjenja);
 		System.out.println("AKtivan: " + aktivan);
-		
-		
+
 	}
 
 }
