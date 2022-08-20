@@ -29,28 +29,27 @@ public class FacebookPost {
 	public String tekst;
 	public int brojLajkova;
 	public int brojDeljenja;
-	
+
 	public void like() {
 		this.brojLajkova = this.brojLajkova + 1;
-		
-	} public void dislike() {
-		if(this.brojLajkova - 1 < 0) {
+
+	}
+
+	public void dislike() {
+		if (this.brojLajkova - 1 < 0) {
 			this.brojLajkova = 0;
 		} else {
 			this.brojLajkova = this.brojLajkova - 1;
 		}
-		} public void share() {
-			this.brojDeljenja = this.brojDeljenja + 1;
-		} public void print() {
-			System.out.println(this.imeIPrezime + " >>> " + this.profilImeIPrezime);
-			System.out.println(this.tekst);
-			System.out.println("Likes " + this.brojLajkova + " | " + "Share " + this.brojDeljenja);
-		}
 	}
-	
-	
-	
-	
 
+	public void share() {
+		this.brojDeljenja = this.brojDeljenja + 1;
+	}
 
-
+	public void print() {
+		System.out.println(this.imeIPrezime + " >>> " + this.profilImeIPrezime);
+		System.out.println(this.tekst);
+		System.out.println("Likes " + this.brojLajkova + " | " + "Share " + this.brojDeljenja);
+	}
+}

@@ -27,7 +27,7 @@ public class Zadatak1 {
 		System.out.println(tastatura.vratiCenuSaPopustom(300));
 		tastatura.racunajPostarinu();
 		System.out.println(tastatura.racunajPostarinu());
-		
+
 	}
 
 }
