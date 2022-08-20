@@ -7,6 +7,7 @@ public class Predavanje4 {
 //		Brojevi su ulazni parametri funkcije. U gravnom programu pozvati nekoliko puta funkciju sa razlicitim
 //		prosledjenim vrednostima. 
 	 operacije(10 , 5);
+	 
 
 	}
 	public static void operacije (int a, int b) {

@@ -34,13 +34,26 @@ public class Predavanje3 {
 		a.brojVrata = 5;
 		a.potrosnja = 10;
 		a.brzina = 200;
+		a.mesec = 5;
+		a.kubikaza = 2000;
+		a.godinaProizvodnje = 1990;
+		a.brojReg = 12345;
+		a.klimaUkljucena = true;
+		a.dodajGas();
+		a.koci();
+		a.potrosnjaGoriva();
+		
 		a.print();
 		
 		if(a.prekoracenje(50) == true) {
 			System.out.println("Desilo se prekoracenje.");
-			System.out.println("Kazna" + a.kazna(50));
+			System.out.println("Kazna " + a.kazna(50));
 		} else {
 			System.out.println("Nije se desilo.");
+		} if(a.oldTimer() == true) {
+			System.out.println("Jeste old timer.");
+		} else {
+			System.out.println("Nije old timer.");
 		}
 	
 	}
