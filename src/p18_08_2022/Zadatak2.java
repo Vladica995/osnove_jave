@@ -41,8 +41,17 @@ public class Zadatak2 {
 			}
 
 		}
-		System.out.println("Niz parnih je: " + brojeviParni);
-		System.out.println("Niz neparnih je: " + brojeviNeparni);
+		System.out.print("Niz parnih je: ");
+		for (int i = 0; i < brojeviParni.size(); i++) {
+			System.out.print(brojeviParni.get(i) + ", ");
+
+		}
+		System.out.println();
+		System.out.print("Niz neparnih je: ");
+		for (int i = 0; i < brojeviNeparni.size(); i++) {
+			System.out.print(brojeviNeparni.get(i) + ", ");
+
+		}
 
 	}
 

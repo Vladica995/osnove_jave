@@ -50,7 +50,7 @@ public class Auto {
 	public int kubikaza;
 	public int brojReg;
 	public boolean klimaUkljucena;
-
+	public int maxBrzina;
 	public void print() {
 		System.out.println("Ime i prezime: " + this.imeIprezime);
 		System.out.println("Marka: " + this.markaAuta + " - " + this.brojVrata + "ro vrata");
@@ -103,6 +103,9 @@ public class Auto {
 
 	public void dodajGas() {
 		this.brzina = this.brzina + 10;
+		if(this.brzina > this.maxBrzina) {
+			this.brzina = this.maxBrzina;
+		}
 	}
 
 	public void koci() {
@@ -116,11 +119,11 @@ public class Auto {
 
 	public double potrosnjaGoriva() {
 		if (this.klimaUkljucena == true) {
-			return this.potrosnja= (this.brzina / 100) * this.potrosnja * 1.2;
+			return (this.brzina / 100) * this.potrosnja * 1.2;
 		} else {
-			return  this.potrosnja= (this.brzina/ 100)* this.potrosnja;
+			return (this.brzina/ 100)* this.potrosnja;
 		}
-	}
+	} 
 }
 
 //Dopuniti klasu Auto tako da ima:

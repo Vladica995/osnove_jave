@@ -25,15 +25,13 @@ public class Zadatak1 {
 //			   U glavnoj klasi napraviti minimum dva FacebookPost-a i nad svakim pozvati svaku funkciju.
 
 		FacebookPost objava = new FacebookPost("Vladica Stevanovic", "Zoran Zoric", "Pozdrav!");
-		objava.setbrojLajkova(100);
-		objava.setbrojDeljenja(20);
+		
 		objava.like();
 		objava.dislike();
 		objava.share();
 		objava.print();
 		FacebookPost face = new FacebookPost("Stevan Stevanovic", "Nenad Nedic", "Samo zdravo!");
-		face.setbrojLajkova(2);
-		face.setbrojDeljenja(33);
+	
 		face.like();
 		face.dislike();
 		face.share();

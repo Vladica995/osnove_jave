@@ -7,9 +7,9 @@ public class Zadatak3 {
 	public static void main(String[] args) {
 //		Zadatak (While petlja)
 //		Napisati program koji pruza mogucnost postavljanja lozinke. Korisnik prvo unosi lozinku a zatim program od korisnika zahteva unos kojim potvrdjuje lozinku sve dok se ne poklopi sa lozinkom ili dok mu se ne blokira mogucnost postavljanja lozinke. Korisnik moze maksimalno 3 puta da pogresi potvrdu lozinke.
-//		Ukoliko se lozinke ne poklapaju ispisati gresku “Lozinke se ne poklapaju”
-//		Ukoliko korisnik unese pogresno potvrdu lozinke vise od 3 puta, ispisati poruku “Mogucnost postavljanja lozinke je blokirana”
-//		Ukoliko se lozinke poklapaju ispisati “Lozinka je uspesno postavljena” 
+//		Ukoliko se lozinke ne poklapaju ispisati gresku ï¿½Lozinke se ne poklapajuï¿½
+//		Ukoliko korisnik unese pogresno potvrdu lozinke vise od 3 puta, ispisati poruku ï¿½Mogucnost postavljanja lozinke je blokiranaï¿½
+//		Ukoliko se lozinke poklapaju ispisati ï¿½Lozinka je uspesno postavljenaï¿½ 
 //		Primer izvrsenja 1:
 //		Unesite lozinku: sifra123
 //		Potvrdite lozinku: pogresna
@@ -37,6 +37,8 @@ public class Zadatak3 {
 
 			}
 
+		} if(brojac == 3) {
+			System.out.println("Blokada!");
 		}
 	}
 

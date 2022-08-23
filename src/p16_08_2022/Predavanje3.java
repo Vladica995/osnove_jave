@@ -33,12 +33,15 @@ public class Predavanje3 {
 		a.markaAuta = "Audi";
 		a.brojVrata = 5;
 		a.potrosnja = 10;
-		a.brzina = 200;
+		a.brzina = 100;
 		a.mesec = 5;
 		a.kubikaza = 2000;
 		a.godinaProizvodnje = 1990;
 		a.brojReg = 12345;
 		a.klimaUkljucena = true;
+		a.maxBrzina = 140;
+		a.dodajGas();
+		a.dodajGas();
 		a.dodajGas();
 		a.koci();
 		a.potrosnjaGoriva();

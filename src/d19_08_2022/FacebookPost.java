@@ -43,22 +43,8 @@ public class FacebookPost {
 		this.tekst = tekst;
 	}
 
-	public void setbrojLajkova(int brojLajkova) {
-
-		this.brojLajkova = brojLajkova;
-	}
-
-	public void setbrojDeljenja(int brojDeljenja) {
-		this.brojDeljenja = brojDeljenja;
-	}
-
-	public int getbrojLajkova() {
-		return this.brojLajkova;
-	}
-
-	public int getbrojDeljenja() {
-		return this.brojDeljenja;
-	}
+	
+	
 
 	public void like() {
 		this.brojLajkova = this.brojLajkova + 1;
