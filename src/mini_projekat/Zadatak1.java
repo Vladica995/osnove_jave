@@ -30,15 +30,17 @@ public class Zadatak1 {
 
 			xo.stampaj();
 
-		} if(xo.isWinnerX() == true) {
-		System.out.println("Pobednik je igrac: ");
-		x.print();
-		
-		} else if(xo.isWinnerO() == true) {
+		}
+		if (xo.isWinnerX() == true) {
+			System.out.println("Pobednik je igrac: ");
+			x.print();
+
+		} else if (xo.isWinnerO() == true) {
 			System.out.println("Pobednik je igrac: ");
 			o.print();
-			
-		} xo.gameScore();
+
+		}
+		xo.gameScore();
 		System.out.println(xo.gameScore());
 		System.out.println();
 		System.out.println("Pocinje partija XO izmedju igraca: ");
@@ -67,18 +69,18 @@ public class Zadatak1 {
 			xo.playNext();
 			xo.makeAMove(7);
 			xo.stampaj();
-		} if(xo.isWinnerX() == true) {
+		}
+		if (xo.isWinnerX() == true) {
 			System.out.println("Pobednik je igrac: ");
 			x.print();
-			
-			} else if(xo.isWinnerO() == true) {
-				System.out.println("Pobednik je igrac: ");
-				o.print();
-		
 
-	} else {
-		System.out.println("Rezultat je neresen.");
-	}
+		} else if (xo.isWinnerO() == true) {
+			System.out.println("Pobednik je igrac: ");
+			o.print();
+
+		} else {
+			System.out.println("Rezultat je neresen.");
+		}
 
 	}
 }
